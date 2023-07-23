@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('./fonts/Lato-Regular.ttf');
+  }
+@font-face {
+    font-family: 'OswaldReg';
+    src: url('./fonts/Oswald-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Regular.ttf');
+}
+
+/* body {
+    background-color: rgb(196, 196, 196);
+    background-image: url("/img/main.jpg");
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background-image: url("./img/welcomePage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+}
+
+.logoIMG {
+    max-width: 400px;
+}
+
+.centerElements {
+    text-align: center;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.centerText {
+    font-family: 'Lato-Regular';
+    font-size: 20px;
+    max-width: 500px;
+}
+
