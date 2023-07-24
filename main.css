@@ -78,7 +78,7 @@ ul {
 
   /* Középső rész: */
  #main-pic-container {
-    max-width: 2000px;
+    max-width: 100%;
     position: relative;
   }
 
@@ -120,6 +120,7 @@ ul {
     text-align: center;
   }
 
+
   .bikeText {
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -155,3 +156,23 @@ ul {
 .col-2:hover span {
   opacity: 1; /* Make the text visible on hover */
 }
+
+
+@media only screen and (max-width: 768px) {
+  .main-pic-text {
+    /* max-height: 40vh;*/
+    transform: translate(10%, 1%); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Set a higher z-index to make sure the smaller image is displayed on top */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 30vh;
+  }
+  .logoIMG {
+    max-height: 150px;
+    transform: translate(80%, -50%);
+  }
+  }
