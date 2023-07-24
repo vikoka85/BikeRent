@@ -113,7 +113,7 @@ ul {
  .col-2 .road,
   .col-2 .mtb, 
   .col-2 .city,
-  .col-2 .trekking,
+  .col-2 .cross,
   .col-2 .kids,
   .col-2 .longboard {
     justify-content: center;
@@ -157,6 +157,13 @@ ul {
   opacity: 1; /* Make the text visible on hover */
 }
 
+footer {
+  text-align: center;
+  padding: 3px;
+  min-height: 50px; /* itt resztponzivitást kellene állítani majd */
+  background-color: #191919;
+  color: white;
+}
 
 @media only screen and (max-width: 768px) {
   .main-pic-text {
@@ -174,5 +181,9 @@ ul {
   .logoIMG {
     max-height: 150px;
     transform: translate(80%, -50%);
+  }
+  footer {
+    background-color: red;
+    min-width: 768px;
   }
   }
