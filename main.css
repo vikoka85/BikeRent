@@ -171,4 +171,8 @@ ul {
     margin-right: auto;
     max-height: 30vh;
   }
+  .logoIMG {
+    max-height: 150px;
+    transform: translate(80%, -50%);
+  }
   }
