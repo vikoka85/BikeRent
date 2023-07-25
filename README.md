@@ -8,5 +8,5 @@ A kártyákat betettem egy div class = containerbe, lehet hogy felesleges, de ez
 Most úgy van, hogy minden kategóriában 8 termék van, ezért 4-4 darabot tettem egy sorba - <div class="col-sm-3">
 Tettem footert a main oldalra, viszont a reszponzivitás beállítása nem nagyon megy. Beletettem a CSS végébe, csak próbaképp pirosra állítottam, viszont azt csinálja, hogy ha nem állítok szélességet (most ez van: min-width: 768px;), akkor nem húzza ki a széléig a sávot.
 2023.07.25: beállítottam a termékképek méretét, most elvileg ugyanakkorák a kártyák
-Blog-oldalak: 3 db, csak szöveg és kép egyelőre
+Blog-oldalak: már összesen 4  db, csak szöveg és kép egyelőre
 csináltam külön CSS-t a blogra és a kategóriákra
