@@ -123,6 +123,10 @@ ul {
     justify-content: center;
     text-align: center;
   }
+  .responsive_category{
+    display: none;
+  }
+
 
 
   .bikeText {
