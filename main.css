@@ -168,7 +168,7 @@ ul {
 footer {
   text-align: center;
   padding: 3px;
-  min-height: 50px; /* itt resztponzivitást kellene állítani majd */
+  min-height: 120px; /* itt resztponzivitást kellene állítani majd */
   background-color: #191919;
   color: white;
 }

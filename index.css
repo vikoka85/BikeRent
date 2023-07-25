@@ -49,6 +49,7 @@ h1 {
 
 .centerText {
     font-family: 'Lato-Regular';
+    margin:auto;
     font-size: 20px;
     max-width: 500px;
 }
