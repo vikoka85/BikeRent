@@ -34,7 +34,8 @@ h1 {
 }
 
 .logoIMG {
-    max-width: 400px;
+    padding-top: 20px;
+    max-width: 20%;
 }
 
 .centerElements {
