@@ -74,6 +74,10 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  #logoIMG_2{
+    display: none;
+  }
+
 
 
   /* Középső rész: */
@@ -176,14 +180,34 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-height: 30vh;
+    max-height: 20vh;
   }
   .logoIMG {
-    max-height: 150px;
-    transform: translate(80%, -50%);
+    display: none;
   }
+  #logoIMG_2{
+    display: flex;
+    width: 120px;
+    height: auto;
+    float: center;
+  }
+  #row-bringak{
+    display: none !important;
+  }
+  .responsive_category{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .responsive_category img {
+      width: 50%;
+      height: 35%;
+      margin: 2%;
+    }
+
   footer {
     background-color: red;
-    min-width: 768px;
+    width: 100%;
   }
   }
