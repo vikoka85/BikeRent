@@ -165,13 +165,59 @@ ul {
   opacity: 1; /* Make the text visible on hover */
 }
 
+/* Text: */
+
+.text-part {
+  max-height: 700px;
+  padding: 20px;
+}
+
+.text-part {
+  max-height: 700px;
+  background-image: url("./img/blogBackgroundV2.png"); 
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+
+/* Carousel: */
+
+.carousel-inner img {
+  max-height: 700px;  /* ez jó így? */
+  max-width: 100%;
+  margin: auto; /* középre zárás */
+}
+.carousel-caption {
+  margin-top: 0;
+}
+.active {
+  background-color: none;
+}
+.carousel-indicators {
+  background-color: none;
+}
+
+
 footer {
   text-align: center;
+  position: relative;
   padding: 3px;
   min-height: 120px; /* itt resztponzivitást kellene állítani majd */
   background-color: #191919;
   color: white;
 }
+
+.footer-text2 {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#footer-text2 {
+  bottom: 0;
+}
+
 
 @media only screen and (max-width: 768px) {
   .main-pic-text {
