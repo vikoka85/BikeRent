@@ -89,7 +89,7 @@ ul {
   /* nagy kép középen: */
 #main-pic1 {
   width: 1800px;
-  max-height: 840px;
+  max-height: 820px;
 
   }
 
@@ -174,12 +174,15 @@ ul {
 
 .text-part {
   max-height: 700px;
-  background-image: url("./img/blogBackgroundV2.png"); 
+  /* background-image: url("./img/blogBackgroundV2.png");  */
   background-size: cover;
   background-position: center;
   padding: 20px;
 }
 
+#renting .hide-on-mobile {
+  display: block; 
+}
 
 /* Carousel: */
 
@@ -259,4 +262,24 @@ footer {
   footer {
     width: 100%;
   }
+
+    #renting h1 {
+      font-size: 20px; /* Set your smaller font size for h1 on mobile */
+    }
+  
+    #renting h2 {
+      font-size: 18px; /* Set your smaller font size for h2 on mobile */
+    }
+  
+    #renting h3 {
+      font-size: 15px; /* Set your smaller font size for h3 on mobile */
+    }
+  
+    #renting p {
+      font-size: 12px; /* Set your smaller font size for paragraphs on mobile */
+    }
   }
+
+    #renting .hide-on-mobile {
+      display: none; /* Hide the element on mobile */
+    }

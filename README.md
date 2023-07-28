@@ -10,3 +10,5 @@ Tettem footert a main oldalra, viszont a reszponzivitás beállítása nem nagyo
 2023.07.25: beállítottam a termékképek méretét, most elvileg ugyanakkorák a kártyák
 Blog-oldalak: már összesen 4  db, csak szöveg és kép egyelőre
 csináltam külön CSS-t a blogra és a kategóriákra
+Megoldottam az összecsúszást, de nem túl elegánsan. Annyi, hogy mobil nézetben levágja a szöveg alját, és akkor így nem csúszik rá a blog meg a footer. Persze jó lenne tudni, hogy mi volt a baja, úgyhogy visszaállíthatom.
+Illetve az előzőhöz kapcsolódóan beállítottam mobil nézetben, hogy a szöveg mérete kisebb legyen.

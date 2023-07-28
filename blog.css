@@ -1,10 +1,24 @@
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('./fonts/Lato-Regular.ttf');
+  }
+@font-face {
+    font-family: 'OswaldReg';
+    src: url('./fonts/Oswald-Regular.ttf');
+}
 
-/* Volt eredetileg egy háttér a blog.html alatt, de kivettem */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Regular.ttf');
+}
 
-/* .background-image {
-    background-image: url("./img/blogBackground.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    opacity: 20%;
-} */
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('./fonts/Montserrat-Bold.ttf');
+}
+
+
+* {
+    font-family: 'Montserrat';
+}
+
