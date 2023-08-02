@@ -278,8 +278,14 @@ footer {
     #renting p {
       font-size: 12px; /* Set your smaller font size for paragraphs on mobile */
     }
-  }
+  
 
     #renting .hide-on-mobile {
       display: none; /* Hide the element on mobile */
     }
+
+    #anchor-blog{
+      font-size: 15px;
+    }
+}
+    
