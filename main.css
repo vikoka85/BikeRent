@@ -221,6 +221,28 @@ footer {
   bottom: 0;
 }
 
+/* elérhetőségek középrésze: */
+
+.középrész{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.térkép{
+  width: 40%;
+  height: 25rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  text-align: center;
+  background-color: aquamarine;
+  width: 40%;
+}
+
 
 @media only screen and (max-width: 768px) {
   .main-pic-text {

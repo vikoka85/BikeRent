@@ -14,3 +14,4 @@ Megoldottam az összecsúszást, de nem túl elegánsan. Annyi, hogy mobil néze
 Illetve az előzőhöz kapcsolódóan beállítottam mobil nézetben, hogy a szöveg mérete kisebb legyen.
 Carouse-hez elkezdtem a blog képeket, a Balcsis blognál beállítottam a hivatkozást.
 készítettem egy új branch-et mert szívózott a git...
+Elkészítettem az elérhetőség html-t, egyelőre csak a nav és a footer van meg.
