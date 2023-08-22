@@ -76,10 +76,10 @@ li a:hover:not(.logoIMG) {
 
 /* Felső részen logó középen: */
 .logoIMG {
-  max-height: 150px;
+  max-height: 135px;
   text-align: center;
   position: absolute;
-  top: 6%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -87,7 +87,13 @@ li a:hover:not(.logoIMG) {
   display: none;
 }
 
-
+/* Sticky */
+.navID {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
 
 footer {
   text-align: center;

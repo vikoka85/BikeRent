@@ -77,10 +77,10 @@ ul {
 
 /* Felső részen logó középen: */
  .logoIMG {
-    max-height: 150px;
+    max-height: 135px;
     text-align: center;
     position: absolute;
-    top: 6%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -88,9 +88,13 @@ ul {
     display: none;
   }
 
-
-
-
+/* Sticky */
+  .navID {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
 
   /* Középső rész: */
  #main-pic-container {
@@ -119,6 +123,10 @@ ul {
     max-height: 60vh;
   }
 
+
+#kerekparok_cim {
+  padding-top: 50px;
+}
 
     /* Innen jönnek a bringa menük: */
   #main-bringak {
